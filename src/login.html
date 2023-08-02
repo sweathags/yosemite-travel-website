@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <script src="login.js"></script>
+
+    <form name="login" class="login_form" onsubmit="return lgn()">
+      <legend>Login</legend>
+      <table align="center" class="login_table">
+        <tr>
+          <td><label>Email Address</label></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="email" placeholder="Enter Email ID" name="mailid" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Password</label></td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              title="Should contain only 8 characters"
+              pattern="[A-Za-z0-9]{8}"
+              name="pass"
+            />
+          </td>
+        </tr>
+        <tr class="button">
+          <td>
+            <a href=""><button class="submit_button">Login</button></a>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="home.html" class="back">Back</a></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

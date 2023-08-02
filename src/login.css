@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/home-bg.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+form {
+    position: relative;
+    margin: 150px auto;
+    display: block;
+    font-family: 'Trebuchet MS';
+    width: 45%;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(56, 56, 56);
+    background-color: rgba(254, 254, 254, 0.1);
+    border-radius: 15px;
+}
+
+form label,
+form input {
+    padding: 10px 40px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form legend {
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #071D20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input {
+    background-color: rgba(123, 208, 220, 0.1);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.submit_button {
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #071D20;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px rgb(236, 232, 232);
+    border-style: none;
+    border-radius: 15px;
+    font-size: medium;
+}
+
+.submit_button:hover {
+    background-color: #7BD0DC;
+    color: black;
+    text-shadow: 0 0 1px darkgray;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back {
+    color: #7BD0DC;
+    text-decoration-line: underline;
+    margin: 0;
+    font-size: 15px;
+}

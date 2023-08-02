@@ -1,0 +1,92 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/***** navbar *****/
+
+img {
+    width: 50px;
+    padding: 10px 10px;
+}
+
+nav {
+    background-color: #071D20;
+    color: white;
+    width: 100%;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+#login {
+    border-style: solid;
+    border-color: #7BD0DC;
+    border-radius: 4px;
+}
+
+.nav-item:hover {
+    background-color: #7BD0DC;
+    border-radius: 4px;
+}
+
+/***** End navbar *****/
+
+
+/***** section-1 *****/
+
+.section-1 {
+    padding-top: 50px;
+}
+
+.section-1 div {
+    padding: 40px 70px;
+}
+
+.section-1 h1,
+.section-1 p {
+    color: #000000;
+    padding: 19px 0;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.section-1 .row:nth-child(even) {
+    background-color: #7BD0DC;
+}
+
+/***** End section-1 *****/
+
+
+/***** contact *****/
+
+
+footer {
+    background-image: linear-gradient(to bottom right, rgb(65, 65, 65), rgb(40, 40, 40), #000000);
+    color: white;
+    padding: 10px;
+    text-shadow: 0 0 4px grey;
+}
+
+footer h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px;
+    padding-top: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: #7BD0DC;
+    text-decoration-thickness: 3px;
+}
+
+footer address,
+p {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    color: white;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+}
+
+/***** End contact *****/
